@@ -1,0 +1,33 @@
+.footer-paragraph {
+    font-size: 1rem; /* Default font size */
+    line-height: 1.5;
+    margin-top: 0.5rem; /* Add space between footer and content */
+    text-align: justify; /* Default alignment for readability */
+  }
+  
+  @media (max-width: 768px) {
+    .footer-paragraph {
+      font-size: 0.875rem; /* Smaller font for mobile */
+      text-align: center; /* Better alignment for small screens */
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .footer-paragraph {
+      font-size: 0.920rem; /* Tablet screens maintain default size */
+      text-align: center; /* Keeps text alignment consistent */
+      max-width: 60rem; /* Restrict text width for better readability */
+      margin: 0 auto; /* Center paragraph */
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .footer-paragraph {
+      font-size: 1rem; /* Larger font for bigger screens */
+      text-align: center;
+      max-width: 70rem; /* Restrict text width for better readability */
+      margin: 0 auto; /* Center paragraph */
+      margin-top: 1rem;
+    }
+  }
+  
